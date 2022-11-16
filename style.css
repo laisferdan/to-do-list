@@ -96,10 +96,12 @@ fieldset {
     border: none;
     border-left: 0px;
     cursor: pointer;
+    transition: all 0.1s;
+
 }
 
 .to-do-div-form form button:hover {
-    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px 12px  rgba(84, 83, 83, 0.8);
 }
 
 #to-do-list {
@@ -151,5 +153,5 @@ fieldset {
 
 #button-clear:hover {
   color: #fff;
-  background-color: #a1dbd9;
+  background-color: #8cd2c4;
 }
